@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("img/background.jpg");
+}
+
+.center {
+	margin: auto;
+	width: 780px;
+}
+
+.body .content{
+	overflow: hidden;
+	float: left;
+	margin: 80px auto;
+	width: 410px;
+}
+
+.body .icon{
+	
+	
+}
+
+.body .descrition{
+	overflow: hidden;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.descrition .name{
+	height: 24px;
+	margin-bottom: 7px;	
+	background-image: url("img/backtext.fw.png");
+}
+
+.descrition .name:hover{
+	height: 24px;
+	margin-bottom: 7px;	
+	background-image: url("img/backtext2.fw.png");
+	color: #eeeeee;
+}
+
+.descrition .formation{
+	height: 24px;
+	margin-bottom: 7px;
+	background-image: url("img/backtext.fw.png");
+	
+}
+
+.descrition .formation:hover{
+	height: 24px;
+	margin-bottom: 7px;	
+	background-image: url("img/backtext2.fw.png");
+	color: #eeeeee;
+}
+
+.descrition .institute{
+	height: 24px;
+	margin-bottom: 7px;
+	background-image: url("img/backtext.fw.png");
+}
+
+.descrition .institute:hover{
+	height: 24px;
+	margin-bottom: 7px;	
+	background-image: url("img/backtext2.fw.png");
+	color: #eeeeee;
+}
+
+.descrition .email{
+	height: 24px;
+	margin-bottom: 7px;
+	background-image: url("img/backtext.fw.png");
+}
+
+.descrition .email:hover{
+	height: 24px;
+	margin-bottom: 7px;	
+	background-image: url("img/backtext2.fw.png");
+	color: #eeeeee;
+}
+
+.body .media {
+	position: relative;
+	top: 30%;
+	left: 30%;
+}
+
+.body .media ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.body .media ul li{
+	float: left;
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.body .media ul li a{
+	display: block;
+	padding: 10px 0;
+	
+}
+
+.media .fb:hover{
+	padding: 0px 0;
+	margin-top: 10px;
+	background-image: url("img/facebook2.fw.png");
+	background-repeat: no-repeat;
+}
+
+.media .insta:hover{
+	padding: 0px 0;
+	margin-top: 10px;
+	background-image: url("img/instagram2.fw.png");
+	background-repeat: no-repeat;
+}
+
+.media .git:hover{
+	padding: 0px 0;
+	margin-top: 10px;
+	background-image: url("img/github2.fw.png");
+	background-repeat: no-repeat;
+}
+
+.body .photo{
+	overflow: hidden;
+	float: left;
+	margin: 120px auto;
+	width: 370px;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 18px;
+	background-image: url("img/footer.fw.png");
+	padding-top: 4px;
+}
+
+.footer .copyright{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 300;	
+	text-align: center;
+}
+
